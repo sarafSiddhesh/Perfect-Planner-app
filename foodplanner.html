@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Planner</title>
+    <link rel="stylesheet" href="foodplanner.css">
+</head>
+<body>
+    <h1>Food Planner</h1>
+
+    <section id="add-meal">
+        <h2>Add a Meal</h2>
+        <form id="meal-form">
+            <label for="meal-name">Meal Name:</label>
+            <input type="text" id="meal-name" required>
+            <br>
+            <label for="meal-ingredients">Ingredients (comma-separated):</label>
+            <textarea id="meal-ingredients" required></textarea>
+            <br>
+            <button type="submit">Add Meal</button>
+        </form>
+    </section>
+
+    <section id="meal-list">
+        <h2>Meal Ideas</h2>
+        <ul id="meals"></ul>
+    </section>
+    <br>
+
+    <section id="grocery-list">
+        <h2>Grocery List</h2>
+        <ul id="grocery-items"></ul>
+    </section>
+
+    <script src="foodplanner.js"></script>
+</body>
+</html>

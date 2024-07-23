@@ -1,0 +1,56 @@
+/* General Styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Ensure footer stays at bottom */
+    background-color: #f4f4f4; /* Light background */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333; /* Darker text for better contrast */
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #fff; /* White background */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: #333; /* Darker text */
+    border-radius: 3px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+nav a:hover {
+    background-color: #e0e0e0; /* Light gray on hover */
+}
+
+/* (Optional) Active Link Styling */
+nav a.active {
+    background-color: #007bff; /* Example: Blue for active link */
+    color: white;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute; /* Position at the bottom */
+    bottom: 0;
+    width: 100%;
+}
